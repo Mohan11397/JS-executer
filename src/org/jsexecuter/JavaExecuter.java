@@ -36,6 +36,9 @@ public class JavaExecuter {
 		WebElement scroll = driver.findElement(By.xpath("//*[text()='Sign Up']"));
 		
 		js.executeScript("arguments[0].scrollIntoView(true)", scroll);
+		System.out.println();
+		System.out.println();
+		System.out.println();
 		
 		
 		
